@@ -1,0 +1,81 @@
+ 2037  ls
+ 2038  mkdir git-majonez
+ 2039  cd git-majonez/
+ 2040  ls
+ 2041  git init
+ 2042  git status 
+ 2043  ls
+ 2044  touch main.cpp
+ 2045  code main.cpp 
+ 2046  git status 
+ 2047  git add .
+ 2048  git commit -m"Initial commit"
+ 2049  git status 
+ 2050  git add .
+ 2051  git commit -m"Farewell changed"
+ 2052  git remote add origin https://github.com/AdamWiercioch95/git-majonez.git
+ 2053  git push -u origin master
+ 2054  git remote set-url origin https://AdamWiercioch95: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@github.com/AdamWiercioch95/git-majonez.git
+ 2055  git push -u origin master
+ 2056  git status 
+ 2057  ls
+ 2058  git branch -a
+ 2059  git branch 
+ 2060  git checkout -b cs
+ 2061  git log
+ 2062  git revert HEAD 
+ 2063  git log
+ 2064  git reset HEAD 
+ 2065  git log
+ 2066  git reset HEAD~1
+ 2067  git log
+ 2068  git reset HEAD~1
+ 2069  git log
+ 2070  git status 
+ 2071  cat main.cpp 
+ 2072  git checkout master 
+ 2073  ls
+ 2074  cat main.cpp 
+ 2075  git log
+ 2076  git checkout cs
+ 2077  git log
+ 2078  ls
+ 2079  code main.cpp 
+ 2080  cat main.cpp 
+ 2081  git status 
+ 2082  git add .
+ 2083  git commit -m"Greetings"
+ 2084  git status 
+ 2085  git log
+ 2086  git checkout master 
+ 2087  git log
+ 2088  git checkout cs
+ 2089  git push origin cs
+ 2090  git checkout master 
+ 2091  git merge cs
+ 2092  git status 
+ 2093  code main.cpp 
+ 2094  git status 
+ 2095  git add .
+ 2096  git status 
+ 2097  git commit
+ 2098  git log
+ 2099  git status 
+ 2100  history
+ 2101  history 2038 >> history.txt
+ 2102  ls
+ 2103  cat history.txt 
+ 2104  hisotry | tail -n +2038 > history.txt
+ 2105  history | tail -n +2038 > history.txt
+ 2106  cat history.txt 
+ 2107  history | tail -n +2038 >> history.txt
+ 2108  cat history.txt 
+ 2109  ls
+ 2110  history 
+ 2111  history | tail -73 >> history.txt 
+ 2112  cat history.txt 
+ 2113  history | tail -75 >> history.txt 
+ 2114  cat history.txt 
+ 2115  history | tail -78 >> history.txt 
+ 2116  cat history.txt 
+ 2117  history | tail -81 > history.txt 
